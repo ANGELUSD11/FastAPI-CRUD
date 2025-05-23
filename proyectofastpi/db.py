@@ -1,6 +1,7 @@
 from sqlmodel import Session, create_engine, SQLModel
 from typing import Annotated
 from fastapi import Depends
+print("hello world")
 
 sqlite_name : str = "db.sqlite3"
 sqlite_url: str = f"sqlite:///{sqlite_name}"
